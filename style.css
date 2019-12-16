@@ -1,0 +1,152 @@
+body {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    height: 40px;
+    display: block;
+    margin-top: 15px;
+    float: top;
+}
+
+.top-left {
+    float: left;
+    margin-left: 10px;
+}
+
+.top-left a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #222;
+    padding-left: 10px;
+    position: relative;
+    text-align: left;
+    align-items: center;
+}
+
+.top-left a:hover {
+    text-decoration: underline;
+}
+
+.top-right {
+    float: right;
+    margin-right: 10px;
+}
+
+.top-right a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #222;
+    padding-right: 10px;
+    position: relative;
+    text-align: right;
+    align-items: center;
+}
+
+.top-right a:hover {
+    text-decoration: underline;
+}
+
+.top-left li {
+    display: inline-block;
+}
+
+.top-right li {
+    display: inline-block;
+}
+
+.sign-in {
+    font-size: 12px;
+    border: none;
+    width: 55px;
+    height: 24px;
+    background-color: #4684EC;
+    color: white;
+    border-radius: 2px;
+}
+
+
+main {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.search li {
+    display: inline;
+}
+
+.logo {
+    display: block;
+    margin: 140px auto auto auto;
+    width: 250px;
+    color: #464646;
+}
+
+.search {
+    display: block;
+    margin: 25px auto auto auto;
+    width: 500px;
+    height: 38px;
+    border-radius: 200px;
+    border: 1px solid #dedede;
+    box-shadow: 1px 1px 1px 1px #eaeaea;
+}
+
+
+.google, .random {
+    margin: 15px;
+    margin-top: 24px;
+    height: 34px;
+    width: 110px;
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 4px;
+}
+
+.google a, .random a {
+    text-decoration: none;
+    color: #5d5d5d;
+    font-size: 12px;
+}
+
+footer {
+    display: inline-block;
+    background-color: #ebebeb;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+footer a {
+    color: #5f6368;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.foot-left {
+    float: left;
+    margin-left: 10px;
+}
+
+.foot-left a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #5f6368;
+    padding-left: 10px;
+    position: relative;
+    text-align: left;
+    align-items: center;
+}
