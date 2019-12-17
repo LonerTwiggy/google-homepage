@@ -4,7 +4,6 @@ body {
     font-size: 14px;
     margin: 0;
     padding: 0;
-
 }
 
 header {
@@ -16,12 +15,11 @@ header {
 
 .top-left {
     float: left;
-    margin-left: 10px;
 }
 
 .top-left a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     color: #222;
     padding-left: 10px;
     position: relative;
@@ -40,7 +38,7 @@ header {
 
 .top-right a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     color: #222;
     padding-right: 10px;
     position: relative;
@@ -70,10 +68,15 @@ header {
     border-radius: 2px;
 }
 
+.sign-in:hover {
+    text-decoration: underline;
+    border: 1px solid #222;
+}
+
 
 main {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .search li {
@@ -112,4 +115,61 @@ main {
     text-decoration: none;
     color: #5d5d5d;
     font-size: 12px;
+}
+
+.google a:hover, .random a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #f2f2f2;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    display: block;
+}
+
+.foot_left {
+    float: left;
+}
+
+.foot_right {
+    float: right;
+    margin-right: 10px;
+}
+
+.foot_left li {
+    display: inline-block;
+}
+
+.foot_right li {
+    display: inline-block;
+}
+
+.foot_left a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #757575;
+    padding-left: 10px;
+    position: relative;
+    text-align: left;
+    align-items: center;
+}
+
+.foot_right a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #757575;
+    padding-right: 10px;
+    position: relative;
+    text-align: right;
+    align-items: center;
+}
+
+.foot_left a:hover {
+    text-decoration: underline;
+}
+
+.foot_right a:hover {
+    text-decoration: underline;
 }
